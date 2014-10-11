@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ServiceTicketsTableViewController : UITableViewController
+@interface ServiceTicketsTableViewController : UITableViewController<NSURLConnectionDelegate>
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *_activityIndicator;
 @property (strong,nonatomic) NSMutableArray *tickets;
+@property (strong,nonatomic) NSMutableData *_responseData;
 @end

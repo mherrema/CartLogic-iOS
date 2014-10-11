@@ -26,7 +26,6 @@
 - (void)configureView {
     // Update the user interface for the detail item.
     if (self.detailItem) {
-        NSLog(@"got here");
         self.ticketLocationLabel.text = [self.detailItem objectForKey:@"location" ];
         self.ticketStatusLabel.text = [self.detailItem objectForKey:@"status"];
         NSArray* cartTypeArray = [[self.detailItem objectForKey:@"cart_type"] componentsSeparatedByString: @"-"];
