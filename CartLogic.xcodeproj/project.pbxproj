@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1648B65C19E8C7E6003EA2F9 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 1648B65B19E8C7E6003EA2F9 /* user.png */; };
+		1648B65E19E8C95F003EA2F9 /* tickets.png in Resources */ = {isa = PBXBuildFile; fileRef = 1648B65D19E8C95F003EA2F9 /* tickets.png */; };
+		1648B66019E8CA14003EA2F9 /* Cart-Icon-sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 1648B65F19E8CA14003EA2F9 /* Cart-Icon-sm.png */; };
+		1648B66319E8D270003EA2F9 /* ServiceTicketsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1648B66219E8D270003EA2F9 /* ServiceTicketsTableViewController.m */; };
+		1648B66619E9598E003EA2F9 /* TicketDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1648B66519E9598E003EA2F9 /* TicketDetailViewController.m */; };
+		1648B66819E968AE003EA2F9 /* CartLogic-logo_FINAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 1648B66719E968AE003EA2F9 /* CartLogic-logo_FINAL.png */; };
 		169D942C19E8C51400783651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169D942B19E8C51400783651 /* main.m */; };
 		169D942F19E8C51400783651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 169D942E19E8C51400783651 /* AppDelegate.m */; };
-		169D943219E8C51400783651 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169D943119E8C51400783651 /* FirstViewController.m */; };
-		169D943519E8C51400783651 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169D943419E8C51400783651 /* SecondViewController.m */; };
 		169D943819E8C51400783651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169D943619E8C51400783651 /* Main.storyboard */; };
 		169D943A19E8C51400783651 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169D943919E8C51400783651 /* Images.xcassets */; };
 		169D943D19E8C51400783651 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 169D943B19E8C51400783651 /* LaunchScreen.xib */; };
 		169D944919E8C51400783651 /* CartLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169D944819E8C51400783651 /* CartLogicTests.m */; };
+		16F6E79119E971EE00889B37 /* NewTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F6E79019E971EE00889B37 /* NewTicketViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +33,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1648B65B19E8C7E6003EA2F9 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		1648B65D19E8C95F003EA2F9 /* tickets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tickets.png; sourceTree = "<group>"; };
+		1648B65F19E8CA14003EA2F9 /* Cart-Icon-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cart-Icon-sm.png"; sourceTree = "<group>"; };
+		1648B66119E8D270003EA2F9 /* ServiceTicketsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTicketsTableViewController.h; sourceTree = "<group>"; };
+		1648B66219E8D270003EA2F9 /* ServiceTicketsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTicketsTableViewController.m; sourceTree = "<group>"; };
+		1648B66419E9598E003EA2F9 /* TicketDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketDetailViewController.h; sourceTree = "<group>"; };
+		1648B66519E9598E003EA2F9 /* TicketDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketDetailViewController.m; sourceTree = "<group>"; };
+		1648B66719E968AE003EA2F9 /* CartLogic-logo_FINAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CartLogic-logo_FINAL.png"; sourceTree = "<group>"; };
 		169D942619E8C51400783651 /* CartLogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartLogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169D942A19E8C51400783651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		169D942B19E8C51400783651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		169D942D19E8C51400783651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		169D942E19E8C51400783651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		169D943019E8C51400783651 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		169D943119E8C51400783651 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		169D943319E8C51400783651 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		169D943419E8C51400783651 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		169D943719E8C51400783651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		169D943919E8C51400783651 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		169D943C19E8C51400783651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		169D944219E8C51400783651 /* CartLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartLogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		169D944719E8C51400783651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		169D944819E8C51400783651 /* CartLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartLogicTests.m; sourceTree = "<group>"; };
+		16F6E78F19E971EE00889B37 /* NewTicketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTicketViewController.h; sourceTree = "<group>"; };
+		16F6E79019E971EE00889B37 /* NewTicketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTicketViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +97,13 @@
 			children = (
 				169D942D19E8C51400783651 /* AppDelegate.h */,
 				169D942E19E8C51400783651 /* AppDelegate.m */,
-				169D943019E8C51400783651 /* FirstViewController.h */,
-				169D943119E8C51400783651 /* FirstViewController.m */,
-				169D943319E8C51400783651 /* SecondViewController.h */,
-				169D943419E8C51400783651 /* SecondViewController.m */,
+				1648B66119E8D270003EA2F9 /* ServiceTicketsTableViewController.h */,
+				1648B66219E8D270003EA2F9 /* ServiceTicketsTableViewController.m */,
 				169D943619E8C51400783651 /* Main.storyboard */,
+				16F6E78F19E971EE00889B37 /* NewTicketViewController.h */,
+				16F6E79019E971EE00889B37 /* NewTicketViewController.m */,
+				1648B66419E9598E003EA2F9 /* TicketDetailViewController.h */,
+				1648B66519E9598E003EA2F9 /* TicketDetailViewController.m */,
 				169D943919E8C51400783651 /* Images.xcassets */,
 				169D943B19E8C51400783651 /* LaunchScreen.xib */,
 				169D942919E8C51400783651 /* Supporting Files */,
@@ -102,6 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				169D942A19E8C51400783651 /* Info.plist */,
+				1648B66719E968AE003EA2F9 /* CartLogic-logo_FINAL.png */,
+				1648B65B19E8C7E6003EA2F9 /* user.png */,
+				1648B65F19E8CA14003EA2F9 /* Cart-Icon-sm.png */,
+				1648B65D19E8C95F003EA2F9 /* tickets.png */,
 				169D942B19E8C51400783651 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -206,7 +223,11 @@
 			files = (
 				169D943819E8C51400783651 /* Main.storyboard in Resources */,
 				169D943D19E8C51400783651 /* LaunchScreen.xib in Resources */,
+				1648B66819E968AE003EA2F9 /* CartLogic-logo_FINAL.png in Resources */,
+				1648B65C19E8C7E6003EA2F9 /* user.png in Resources */,
 				169D943A19E8C51400783651 /* Images.xcassets in Resources */,
+				1648B66019E8CA14003EA2F9 /* Cart-Icon-sm.png in Resources */,
+				1648B65E19E8C95F003EA2F9 /* tickets.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				169D943519E8C51400783651 /* SecondViewController.m in Sources */,
 				169D942F19E8C51400783651 /* AppDelegate.m in Sources */,
-				169D943219E8C51400783651 /* FirstViewController.m in Sources */,
+				16F6E79119E971EE00889B37 /* NewTicketViewController.m in Sources */,
+				1648B66619E9598E003EA2F9 /* TicketDetailViewController.m in Sources */,
 				169D942C19E8C51400783651 /* main.m in Sources */,
+				1648B66319E8D270003EA2F9 /* ServiceTicketsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CartLogic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CartLogic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +442,7 @@
 				169D944E19E8C51400783651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		169D944F19E8C51400783651 /* Build configuration list for PBXNativeTarget "CartLogicTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				169D945119E8C51400783651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
